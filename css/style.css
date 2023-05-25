@@ -112,6 +112,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     letter-spacing: -0.01em;
     color: #313B49;
     padding-bottom: 15px;
+    line-height: 1.7;
 }
 
 .content-section .tags span {
@@ -137,20 +138,175 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 /* heart-msg-bar start */
 .heart-msg-bar {
-    padding-top: 8px;
-    padding-bottom: 12px;
-    border-bottom: 1px solid #ccc;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #F7F8FA;
 }
 
-.heart-msg-bar img {
-    width: 29px;
-    height: 29px;
+.heart-msg-bar img.heart {
+    width: 28px;
+    height: 25px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.heart-msg-bar img.talk {
+    width: 26px;
+    height: 26px;
     object-fit: cover;
     object-position: center;
 }
 
 .heart-msg-bar span {
+    font-weight: 400;
+    font-size: 16px;
+    color: #919EB6;
+    padding-right: 13px;
+    padding-left: 2px;
+    position: relative;
+    top: 2px;
+}
+
+.heart-msg-bar img.bookmark {
+    width: 20px;
+    height: 26px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.heart-msg-bar img.dots {
+    width: 59px;
+    height: 30px;
+    object-fit: cover;
+    object-position: center;
+    position: relative;
+    right: 7px;
+    bottom: 1px;
+}
+
+/* chat-section start */
+.chat-section {
+    padding-top: 13px;
+}
+
+.chat-section img.avatar{
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.chat-section .info {
+    display: flex;
+    position: relative;
+    top: 10px;
+    margin-bottom: 15px;
+}
+
+.chat-section .info h1 {
+    font-weight: 900;
+    font-size: 19px;
+    color: #1D232B;
+}
+
+.chat-section .info img.tick{
+    width: 19px;
+    height: 18px;
+    margin: 0px 7px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.chat-section .info span {
+    color: #919EB6;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.chat-section .info img.three-dots {
+    width: 48px;
+    height: 30px;
+    object-fit: cover;
+    object-position: center;
+    position: relative;
+    bottom: 22px;
+    left: 60px;
+}
+
+.chat-section .comment p {
+    font-weight: 400;
     font-size: 14px;
-    color: black;
+    line-height: 1.4;
+    letter-spacing: -0.01em;
+    color: #313B49;
+}
+
+.chat-section .heart-msg {
+    padding-top: 5px;
+    padding-bottom: 25px;
+}
+
+.chat-section .heart-msg img.heart {
+    width: 21px;
+    height: 19px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.chat-section .heart-msg img.talk {
+    width: 21px;
+    height: 21px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.chat-section .heart-msg span {
+    font-weight: 400;
+    font-size: 14px;
+    color: #919EB6;
+    padding-right: 10px;
+    padding-left: 1px;
+    position: relative;
+    top: 1px;
+}
+
+.chat-section .user-info {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.chat-section .user-info img.avatar {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.chat-section .user-info h1.title {
+    font-weight: 900;
+    font-size: 20px;
+    color: #1D232B;
+    padding-left: 12px;
+    padding-right: 9px;
+    position: relative;
+    top: 10px;
+}
+
+.chat-section .user-info span {
+    color: #919EB6;
+    font-weight: 500;
+    font-size: 13px;
+    position: relative;
+    top: 10px;
+}
+
+.chat-section .user-info img.threedots {
+    width: 48px;
+    height: 30px;
+    object-fit: cover;
+    object-position: center;
+    position: relative;
+    bottom: 18px;
+    left: 73px;
 }
 
