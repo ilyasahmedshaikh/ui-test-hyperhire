@@ -1,9 +1,22 @@
+/* colors variable */
+:root{
+    --white-color: #ffff;
+    --lightBlue-color: #01B99F;
+    --gray-color: #919EB6;
+    --black-color: #1D232B;
+    --lightBlack-color: #313B49;
+    --lightPurple-color: #5A6B87;
+    --lightPurple-color: #5A6B87;
+    --lightWhite-color: #F7F8FA;
+    --silver-color: #CED3DE;
+}
+
 body
 {
     font-family: 'Noto Sans JP', sans-serif !important;
     overflow-x: hidden;
     margin-bottom: 0 auto;
-    background: #fff;
+    background: var(--white-color);
 }
 
 h1, h2, h3, h4, h5, h6, p, ul {
@@ -28,7 +41,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     font-size: 28px;
     font-weight: 800;
     letter-spacing: -0.01em;
-    color: #1D232B;
+    color: var(--black-color);
 }
 
 .navigation-bar img.right {
@@ -53,7 +66,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .user-bar .info h1 {
     font-weight: 900;
     font-size: 19px;
-    color: #1D232B;
+    color: var(--black-color);
 }
 
 .user-bar .info img.tick{
@@ -65,7 +78,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 .user-bar .info span {
-    color: #919EB6;
+    color: var(--gray-color);
     font-weight: 500;
     font-size: 13px;
 }
@@ -74,11 +87,11 @@ h1, h2, h3, h4, h5, h6, p, ul {
     font-weight: 400;
     font-size: 16px;
     line-height: 100%;
-    color: #919EB6;
+    color: var(--gray-color);
 }
 
 .user-bar .sub-info span.dot{
-    color: #919EB6;
+    color: var(--gray-color);
     font-size: 34px;
     position: relative;
     bottom: 5px;
@@ -86,12 +99,12 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 .user-bar a.g-btn{
-    color: #fff;
+    color: var(--white-color);
     font-weight: 500;
     font-size: 12px;
     letter-spacing: -0.01em;
-    border: 1px solid #01B99F;
-    background: #01B99F;
+    border: 1px solid var(--lightBlue-color);
+    background: var(--lightBlue-color);
     padding: 6px 15px;
     border-radius: 100px;
 }
@@ -100,7 +113,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .content-section h2 {
     font-weight: 900;
     font-size: 13px;
-    color: #1D232B;
+    color: var(--black-color);
     padding-bottom: 15px;
     padding-top: 18px;
     letter-spacing: -0.01em;
@@ -110,18 +123,18 @@ h1, h2, h3, h4, h5, h6, p, ul {
     font-weight: 500;
     font-size: 12px;
     letter-spacing: -0.01em;
-    color: #313B49;
+    color: var(--lightBlack-color);
     padding-bottom: 15px;
     line-height: 1.7;
 }
 
 .content-section .tags span {
-    color: #5A6B87;
+    color: var(--lightPurple-color);
     font-weight: 500;
     font-size: 15px;
     padding: 5px 12px;
-    background: #F7F8FA;
-    border: 0.5px solid #CED3DE;
+    background: var(--lightWhite-color);
+    border: 0.5px solid var(--silver-color);
     border-radius: 999px;
     margin: 0 2px;
     line-height: 41px;
@@ -140,7 +153,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .heart-msg-bar {
     padding-top: 5px;
     padding-bottom: 10px;
-    border-bottom: 3px solid #F7F8FA;
+    border-bottom: 3px solid var(--lightWhite-color);
 }
 
 .heart-msg-bar img.heart {
@@ -160,7 +173,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .heart-msg-bar span {
     font-weight: 400;
     font-size: 16px;
-    color: #919EB6;
+    color: var(--gray-color);
     padding-right: 13px;
     padding-left: 2px;
     position: relative;
@@ -206,7 +219,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .chat-section .info h1 {
     font-weight: 900;
     font-size: 19px;
-    color: #1D232B;
+    color: var(--black-color);
 }
 
 .chat-section .info img.tick{
@@ -218,7 +231,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 .chat-section .info span {
-    color: #919EB6;
+    color: var(--gray-color);
     font-weight: 500;
     font-size: 13px;
 }
@@ -238,7 +251,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     font-size: 14px;
     line-height: 1.4;
     letter-spacing: -0.01em;
-    color: #313B49;
+    color: var(--lightBlack-color);
 }
 
 .chat-section .heart-msg {
@@ -263,7 +276,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .chat-section .heart-msg span {
     font-weight: 400;
     font-size: 14px;
-    color: #919EB6;
+    color: var(--gray-color);
     padding-right: 10px;
     padding-left: 1px;
     position: relative;
@@ -285,7 +298,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .chat-section .user-info h1.title {
     font-weight: 900;
     font-size: 20px;
-    color: #1D232B;
+    color: var(--black-color);
     padding-left: 12px;
     padding-right: 9px;
     position: relative;
@@ -293,7 +306,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 }
 
 .chat-section .user-info span {
-    color: #919EB6;
+    color: var(--gray-color);
     font-weight: 500;
     font-size: 13px;
     position: relative;
@@ -310,3 +323,25 @@ h1, h2, h3, h4, h5, h6, p, ul {
     left: 73px;
 }
 
+/* reply-field start */
+.reply-field {
+    border-top: 3px solid var(--lightWhite-color);
+}
+
+.reply-field img {
+    width: 25px;
+    height: 24px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.reply-field input {
+    border: 0px;
+}
+
+.reply-field a {
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: -0.01em;
+    color: var(--gray-color);
+}
