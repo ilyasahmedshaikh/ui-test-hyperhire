@@ -121,7 +121,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 .content-section p {
     font-weight: 500;
-    font-size: 12px;
+    font-size: 13px;
     letter-spacing: -0.01em;
     color: var(--lightBlack-color);
     padding-bottom: 15px;
